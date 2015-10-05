@@ -21,6 +21,7 @@ JSONConnector.connect_array(url_string, query_string);
 If url equals http://www.xxx.com/test.php?name=hayden&value=1
 
 -> url_string : http://www.xxx.com/test.php
+
 -> query_string : name=hayden&value=1
 
 Code -> JSONConnector.connect_object("http://www.xxx.com/test.php", "name=hayden&value=1");
